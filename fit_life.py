@@ -15,7 +15,6 @@ if __name__ == '__main__':
     user_age = int(input('Введите количество полных лет: '))
     user_weight = convert_to_float(input('Введите Ваш вес: '))
     user_height = convert_to_float(input('Введите Ваш рост (например 1.75): '))
-    
 
     bmi = bmi = user_weight / (user_height ** 2)  # расчет имт
     bmi = round(bmi, 1)
